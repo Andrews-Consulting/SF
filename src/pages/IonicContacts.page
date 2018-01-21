@@ -1,0 +1,28 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false"
+    docType="html-5.0" applyHtmlTag="false" applyBodyTag="false">
+
+<html>
+ 
+<head>
+    <link href="//code.ionicframework.com/1.2.4/css/ionic.css" rel="stylesheet"/>
+    <script src="//code.ionicframework.com/1.2.4/js/ionic.bundle.min.js" />
+    <script src="{!URLFOR($Resource.IonicContactsApp)}" />
+</head>    
+
+<body ng-app="starter">
+
+    <apex:remoteObjects >
+        <apex:remoteObjectModel name="Contact" fields="Id, Name, Title"/>
+    </apex:remoteObjects>
+    
+    <ion-nav-bar class="bar-positive">
+        <ion-nav-back-button/>
+    </ion-nav-bar>
+
+    <ion-nav-view/>
+
+</body>
+
+</html>
+
+</apex:page>

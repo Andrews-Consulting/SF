@@ -1,0 +1,12 @@
+<aura:component >
+    <aura:attribute name="street" type="String" default="1156 28th" />
+    <aura:attribute name="city" type="String" default="West Des Moines" />
+    <aura:attribute name="state" type="String" default="IA" />
+    <aura:attribute name="postalCode" type="String" default="50266-2171" />
+    
+    {!v.street}<br />
+    {!v.city}<br />
+    {!v.state}<br />
+    {!v.postalCode}<br />
+    
+</aura:component>

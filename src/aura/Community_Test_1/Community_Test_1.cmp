@@ -1,0 +1,25 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+    <div id="iowa_sliver" class="">
+        <div id="sliver-container" class="container">
+            <div id="iowa_sliver_spacer">&nbsp;</div>
+            <div id="iowa_sliver_bar">
+                <div id="iowa_sliver_links">
+                    <ul>
+                        <li id="iowa_sliver_logo"><a href="http://www.iowa.gov">Iowa.gov</a></li>
+                        <li id="iowa_sliver_agencies"><a href="http://phonebook.iowa.gov/agency.aspx">Agencies</a></li>
+                        <li id="iowa_sliver_services"><a href="http://www.iowa.gov/Online_Services">Online Services</a></li>
+                    </ul>
+                </div>
+                <div id="iowa_sliver_search"><a href="#" id="iowa_sliver_search_link">Search All of Iowa.gov...</a></div>
+            </div>
+            <div id="iowa_sliver_search_form">
+                <form method="get" action="http://www.iowa.gov/pages/search">
+                    <p>Search all State of Iowa websites:</p>
+                    <input type="text" name="q" id="iowa_sliver_q" />
+                    <input type="submit" name="" id="iowa_sliver_search_submit" value="Search" />
+                </form>
+                <a href="#" class="close" id="iowa_sliver_search_form_close" title="Close Search Box">X</a>
+            </div>
+        </div>
+    </div>
+</aura:component>

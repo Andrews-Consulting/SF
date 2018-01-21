@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Technical</label>
+            <name>Technical</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Operational</label>
+            <name>Operational</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Financial</label>
+            <name>Financial</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Budget</label>
+            <name>Budget</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Reporting</label>
+            <name>Reporting</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>FAQ</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

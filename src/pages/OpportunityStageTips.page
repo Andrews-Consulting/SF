@@ -1,0 +1,8 @@
+<apex:page docType="html-5.0" standardController="Opportunity">
+   
+       	<apex:outputText value="Do you need help with prospecting" rendered="{! Opportunity.StageName == 'Prospecting'}" />
+  		<apex:outputtext value="You should perform some needs Analysis" rendered="{! Opportunity.StageName == 'Needs Analysis'}"/>
+    	<apex:outputtext value="You should perform some needs quoting" rendered="{! Opportunity.StageName == 'Proposal/Price Quote'}" />
+    	<apex:outputtext value="You should perform some needs Negotiation" rendered="{! Opportunity.StageName == 'Negotiation/Review'}" />
+   
+</apex:page>

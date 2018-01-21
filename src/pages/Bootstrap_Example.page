@@ -1,0 +1,40 @@
+<apex:page sidebar="false" showHeader="false" standardStylesheets="false" standardController="Account" docType="html-5.0" recordSetVar="accounts">
+    
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta name="description" content="" />
+      <meta name="author" content="" />
+
+    <title>Justified Nav Template for Bootstrap</title>
+    <!-- Bootstrap core CSS -->
+      <apex:stylesheet value="{!URLFOR($Resource.Bootstrap, '/bootstrap-3.3.6-dist/css/bootstrap.min.css')}" />
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <!-- Example row of columns -->
+      <div class="row">
+      	<apex:repeat value="{!accounts}" var="a">
+        	<div class="col-lg-4">
+                <h3><apex:outputField value="{!a.name}" /></h3>
+                <h3><apex:outputField value="{!a.phone}" /></h3>
+            </div>
+      	</apex:repeat>       
+      </div>
+
+      <!-- Site footer -->
+      <footer class="footer">
+        <p>&copy; 2015 Company, Inc.</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
+
+</apex:page>

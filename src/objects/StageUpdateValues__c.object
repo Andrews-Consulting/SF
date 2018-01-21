@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <description>Values to update Contact activation stage</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Days_High__c</fullName>
+        <description>Max Number of days from the current date</description>
+        <externalId>false</externalId>
+        <label>Days_High</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_Low__c</fullName>
+        <description>Minimum number of days from current date to qualify for this stage</description>
+        <externalId>false</externalId>
+        <label>Days_Low</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>StageUpdateValues</label>
+    <visibility>Public</visibility>
+</CustomObject>

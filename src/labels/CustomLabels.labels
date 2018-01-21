@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>TestEnglish</fullName>
+        <categories>Test, English</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TestEnglish</shortDescription>
+        <value>This is the english text of the message</value>
+    </labels>
+    <labels>
+        <fullName>TestSpanish</fullName>
+        <categories>Test, Spanish</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>TestSpanish</shortDescription>
+        <value>This is the spanish version of the message</value>
+    </labels>
+</CustomLabels>

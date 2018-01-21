@@ -1,0 +1,23 @@
+<!--myNamespace:myListComponent-->
+<aura:component >
+    <aura:attribute name="numbers" type="List"/>
+    <ui:button press="{!c.getNumbers}" label="Display Numbers" /><br />
+    <aura:iteration var="num" items="{!v.numbers}">
+        {!num.value}<br />
+    </aura:iteration>
+    
+    <ui:inputText label="Name" aura:id="name" placeholder="First, Last"/>
+    <ui:outputText aura:id="nameOutput" value=""/>
+    <ui:button aura:id="outputButton" label="Submit" press="{!c.getInput}"/>
+    
+    
+    
+    <aura:attribute name="first" type="String" default="John"/>
+    <aura:attribute name="last" type="String" default="Doe"/>
+    
+    <ui:inputText label="First Name" value="{!v.first}" updateOn="keyup"/>
+    <ui:inputText label="Last Name" value="{!v.last}" updateOn="keyup"/>
+    
+    <!-- Returns "John Doe" -->
+    <ui:outputText value="{!v.first +' '+ v.last}"/>
+</aura:component>

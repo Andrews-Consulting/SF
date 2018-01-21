@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>Thank you</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <senderEmail>chris@andrewsconsulting.com</senderEmail>
+            <senderName>Chris Andrews</senderName>
+            <template>unfiled$public/Thank_You</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

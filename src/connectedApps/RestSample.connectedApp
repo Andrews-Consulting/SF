@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>chris@andrewsconsulting.com</contactEmail>
+    <label>RestSample</label>
+    <oauthConfig>
+        <callbackUrl>https://www.andrewsconsulting.com</callbackUrl>
+        <consumerKey>3MVG91ftikjGaMd9EKeAuW7LLrz4qofGopoc4IVP5BOrlGjyNpT2U.DX9y6tzJDwyqMoL4qB6v517F62NcSaU</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Web</scopes>
+        <scopes>Full</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>CustomApplications</scopes>
+        <scopes>RefreshToken</scopes>
+        <scopes>OpenID</scopes>
+        <scopes>CustomPermissions</scopes>
+        <scopes>Wave</scopes>
+        <scopes>Eclair</scopes>
+    </oauthConfig>
+</ConnectedApp>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Qualifying Leads</label>
+            <name>Qualifying_Leads</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Sales Process</label>
+            <name>Sales_Process</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Partners</label>
+            <name>Partners</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Sales Knowledge</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

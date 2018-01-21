@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Des Moines</label>
+                <name>Des_Moines</name>
+            </dataCategory>
+            <dataCategory>
+                <label>West Des Moines</label>
+                <name>West_Des_Moines</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Clive</label>
+                <name>Clive</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Windsor Heights</label>
+                <name>Windsor_Heights</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Urbandale</label>
+                <name>Urbandale</name>
+            </dataCategory>
+            <label>Iowa</label>
+            <name>Iowa</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Wichita</label>
+                <name>Wichita</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Derby</label>
+                <name>Derby</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Maize</label>
+                <name>Maize</name>
+            </dataCategory>
+            <label>Kansas</label>
+            <name>Kansas</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Missourri</label>
+            <name>Missourri</name>
+        </dataCategory>
+        <dataCategory>
+            <label>South Dakato</label>
+            <name>South_Dakato</name>
+        </dataCategory>
+        <dataCategory>
+            <label>North Dakato</label>
+            <name>North_Dakato</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Location for Schedules</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

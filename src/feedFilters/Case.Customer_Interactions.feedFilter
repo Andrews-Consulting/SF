@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFeedFilter xmlns="http://soap.sforce.com/2006/04/metadata">
+    <criteria>
+        <feedItemType>EmailMessageEvent</feedItemType>
+        <relatedSObjectType>EmailMessage</relatedSObjectType>
+    </criteria>
+    <criteria>
+        <feedItemType>CallLogPost</feedItemType>
+        <relatedSObjectType>Task</relatedSObjectType>
+    </criteria>
+    <criteria>
+        <feedItemType>TextPost</feedItemType>
+        <feedItemVisibility>AllUsers</feedItemVisibility>
+    </criteria>
+    <label>Customer_Interactions</label>
+</CustomFeedFilter>

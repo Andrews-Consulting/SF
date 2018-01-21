@@ -1,0 +1,7 @@
+<aura:component >
+    Observe!  Components within components!
+
+    <c:helloHTML />
+
+    <c:helloAttributes whom="component composition"/>
+</aura:component>

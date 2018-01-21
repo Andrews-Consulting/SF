@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canvasConfig>
+        <accessMethod>Post</accessMethod>
+        <canvasUrl>https://andrewsconsulting-1-dev-ed--c.na31.visual.force.com/apex/ServiceProviderEx2</canvasUrl>
+        <locations>Chatter</locations>
+        <locations>Visualforce</locations>
+        <locations>MobileNav</locations>
+        <samlInitiationMethod>IdpInitiated</samlInitiationMethod>
+    </canvasConfig>
+    <contactEmail>Chris@andrewsconsulting.com</contactEmail>
+    <label>CA Service Provider Ex 2 screen</label>
+    <oauthConfig>
+        <callbackUrl>https://andrewsconsulting-1-dev-ed.my.salesforce.com/callback.html</callbackUrl>
+        <consumerKey>3MVG91ftikjGaMd9EKeAuW7LLr.nBX8ML.4aAFkNC3XvFxTSo9DABuwY8.lAarB53vMZWlVXl5oPXaZZk6OQq</consumerKey>
+        <scopes>Full</scopes>
+    </oauthConfig>
+    <samlConfig>
+        <acsUrl>https://andrewsconsulting-1-dev-ed.my.salesforce.com?so=00D37000000HUFD</acsUrl>
+        <encryptionType>AES_128</encryptionType>
+        <entityUrl>https://andrewsconsulting-1-dev-ed.my.salesforce.com</entityUrl>
+        <issuer>https://andrewsconsulting-dev-ed.my.salesforce.com</issuer>
+        <samlNameIdFormat>Unspecified</samlNameIdFormat>
+        <samlSubjectType>FederationId</samlSubjectType>
+    </samlConfig>
+    <startUrl>https://andrewsconsulting-1-dev-ed--c.na31.visual.force.com/apex/ServiceProviderEx2</startUrl>
+</ConnectedApp>

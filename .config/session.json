@@ -1,0 +1,19 @@
+{
+    "apex_url": "https://andrewsconsulting-dev-ed.my.salesforce.com/services/Soap/s/41.0", 
+    "X-SFDC-Session": "00D15000000GRsG!ARQAQBcHvpJWe9eEPCkWkbotC01NEy_49hGJP7B7TSAdQ2g0_lz3..q1XVi.sPUzZ0zvzsPVbe05L13n.QPv1C7HR4oUJihU", 
+    "partner_url": "https://andrewsconsulting-dev-ed.my.salesforce.com/services/Soap/u/41.0", 
+    "session_id": "00D15000000GRsG!ARQAQBcHvpJWe9eEPCkWkbotC01NEy_49hGJP7B7TSAdQ2g0_lz3..q1XVi.sPUzZ0zvzsPVbe05L13n.QPv1C7HR4oUJihU", 
+    "instance_url": "https://andrewsconsulting-dev-ed.my.salesforce.com", 
+    "metadata_url": "https://andrewsconsulting-dev-ed.my.salesforce.com/services/Soap/m/41.0", 
+    "rest_url": "https://andrewsconsulting-dev-ed.my.salesforce.com/services/data/v41.0", 
+    "project name": "Trailhead-Dev", 
+    "headers": {
+        "Content-Type": "application/json; charset=UTF-8", 
+        "Accept": "application/json", 
+        "Authorization": "OAuth 00D15000000GRsG!ARQAQBcHvpJWe9eEPCkWkbotC01NEy_49hGJP7B7TSAdQ2g0_lz3..q1XVi.sPUzZ0zvzsPVbe05L13n.QPv1C7HR4oUJihU"
+    }, 
+    "user_id": "005150000061d3lAAA", 
+    "server_url": "https://andrewsconsulting-dev-ed.my.salesforce.com/services/Soap/u/5.0/00D15000000GRsG", 
+    "time_stamp": "2018-01-21 16:43:41", 
+    "success": true
+}

@@ -1,0 +1,225 @@
+/* iowa sliver styles */
+.THIS  #iowa_sliver_spacer {
+      height: 41px;
+    }
+.THIS    #iowa_sliver_bar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      overflow: visible;
+      margin: 0;
+      padding: 3px 0;
+      color: #fff;
+      font: normal 13px/20px Helvetica, Arial, sans-serif !important;
+      text-align: right;
+    }
+.THIS    #iowa_sliver_bar a,
+.THIS    #iowa_sliver_bar a:visited {
+      color: #fff;
+      text-decoration: none;
+    }
+.THIS    #iowa_sliver_bar a:hover {
+      text-decoration: underline;
+    }
+.THIS    #iowa_sliver_links {
+      float: left;
+      position: relative;
+      z-index: 500;
+    }
+.THIS    #iowa_sliver_links ul {
+      margin: 3px 0 0 1px;
+      padding: 0;
+      text-align: left;
+    }
+.THIS    #iowa_sliver_links ul li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      float: left;
+      display: inline;
+    }
+.THIS    #iowa_sliver_links ul li a,
+.THIS    #iowa_sliver_links ul li a:visited {
+      display: block;
+      float: left;
+      padding: 6px 10px 2px;
+      opacity: .7;
+      -webkit-transition: opacity 0.3s ease-out;
+      -moz-transition: opacity 0.3s ease-out;
+    }
+.THIS    #iowa_sliver_links ul li a:hover {
+      opacity: 1;
+    }
+.THIS    #iowa_sliver_links ul li#iowa_sliver_agencies a {
+      background: url("http://dhs.iowa.gov/sites/all/themes/skeletontheme/images/listing.png") no-repeat 4px 10px;
+      padding-left: 22px;
+    }
+.THIS    #iowa_sliver_links ul li#iowa_sliver_services a {
+      background: url("http://dhs.iowa.gov/sites/all/themes/skeletontheme/images/services.png") no-repeat 5px 10px;
+      padding-left: 22px;
+    }
+.THIS    #iowa_sliver_links ul li#iowa_sliver_logo a {
+      width: 95px;
+      height: 30px;
+      padding: 3px 10px;
+      margin-top: -2px;
+      overflow: hidden;
+      text-indent: -1000px;
+      opacity: 1;
+      background: url("http://dhs.iowa.gov/sites/all/themes/skeletontheme/images/iowa-logo-small-white.png") no-repeat 10px 0;
+    }
+.THIS    #iowa_sliver_links ul li#iowa_sliver_logo a:hover,
+.THIS    #iowa_sliver_links ul li#iowa_sliver_logo a:focus {
+      background-position: 10px -40px;
+    }
+.THIS    #iowa_sliver_search {
+      margin: 3px 10px 0 0;
+      position: relative;
+    }
+.THIS    #iowa_sliver_search a#iowa_sliver_search_link {
+      display: inline-block;
+      padding: 2px 8px 2px 26px;
+      margin: 3px 0;
+      border: 1px solid #819dbc;
+      font-size: 12px;
+      line-height: 20px;
+      color: #bfcddd;
+      background: url("http://dhs.iowa.gov/sites/all/themes/skeletontheme/images/search-icon.png") no-repeat 8px 6px;
+      -webkit-transition: color 0.3s ease-out;
+      -moz-transition: color 0.3s ease-out;
+    }
+.THIS    #iowa_sliver_search a#iowa_sliver_search_link:hover {
+      color: #ffffff;
+    }
+.THIS    #iowa_sliver_search_form {
+      display: none;
+      position: absolute;
+      top: 42px;
+      right: 10px;
+      padding: 10px;
+      background-color: #b7c7d9;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+      text-align: left;
+      color: #204a7a;
+      z-index: 5000;
+    }
+.THIS    #iowa_sliver_search_form p {
+      font-style: italic;
+      font-size: 14px;
+      margin: 0 0 10px;
+    }
+.THIS    #iowa_sliver_search_form:before {
+      content: ".";
+      display: block;
+      position: absolute;
+      top: -10px;
+      right: 10px;
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      border-color: transparent transparent #b7c7d9;
+    }
+.THIS    #iowa_sliver_search_form a.close {
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      padding: 3px 5px;
+      background-color: #acbed2;
+      text-align: center;
+      font-size: 11px;
+      line-height: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+.THIS    #iowa_sliver_search_form a.close:hover {
+      background-color: #a0b5cb;
+    }
+.THIS    #iowa_sliver_search_form form {
+      margin: 0;
+      padding: 0 10px 0 0;
+    }
+.THIS    #iowa_sliver_search_form form input#iowa_sliver_q {
+      padding: 2px;
+      margin: 0;
+      width: 160px;
+      font-size: 13px;
+      line-height: 13px;
+      background-color: #819dbc;
+      color: #dce4ed;
+      border: 1px inset #255182;
+      -webkit-transition: all 0.5s ease-out;
+      -moz-transition: all 0.5s ease-out;
+    }
+.THIS    #iowa_sliver_search_form form input:-moz-placeholder,
+.THIS    #iowa_sliver_search_form form input::-webkit-input-placeholder,
+.THIS    #iowa_sliver_search_form form input#iowa_sliver_q.placeholder {
+      color: #dce4ed;
+    }
+.THIS    #iowa_sliver_search_form form input#iowa_sliver_q:focus {
+      background-color: #dce4ed;
+      color: #204a7a;
+    }
+.THIS    #iowa_sliver_search_form form input#iowa_sliver_search_submit {
+      padding: 2px 6px;
+      font-size: 13px;
+      line-height: 1em;
+      overflow: visible;
+      margin: 0;
+      color: #444;
+      text-shadow: 1px 1px 1px #e6e6e6;
+      border: 1px outset #999;
+      cursor: pointer;
+      background: #ccc;
+      background: -moz-linear-gradient(top, #b2b2b2 0%, #c9c9c9 45%, #d6d6d6 62%, #d6d6d6 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b2b2b2), color-stop(45%, #c9c9c9), color-stop(62%, #d6d6d6), color-stop(100%, #d6d6d6));
+      background: -webkit-linear-gradient(top, #b2b2b2 0%, #c9c9c9 45%, #d6d6d6 62%, #d6d6d6 100%);
+      background: -o-linear-gradient(top, #b2b2b2 0%, #c9c9c9 45%, #d6d6d6 62%, #d6d6d6 100%);
+      background: -ms-linear-gradient(top, #b2b2b2 0%, #c9c9c9 45%, #d6d6d6 62%, #d6d6d6 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b2b2b2', endColorstr='#d6d6d6', GradientType=0);
+      background: linear-gradient(top, #b2b2b2 0%, #c9c9c9 45%, #d6d6d6 62%, #d6d6d6 100%);
+    }
+.THIS    #iowa_sliver.quirky #iowa_sliver_bar {
+      height: 41px;
+    }
+.THIS    #iowa_sliver.quirky #iowa_sliver_links ul li#iowa_sliver_logo a {
+      width: 115px;
+      height: 30px;
+    }
+.THIS    #iowa_sliver.quirky #iowa_sliver_search {
+      margin: 6px 10px 0 0;
+    }
+.THIS    #iowa_sliver.quirky #iowa_sliver_search_form form input#iowa_sliver_q {
+      width: 164px;
+      margin-right: 5px;
+    }
+.THIS    #iowa_sliver {
+      background: #224e7d;
+      background: -moz-linear-gradient(top, #1b4472 0%, #2d5c90 53%, #2d5c90 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1b4472), color-stop(53%, #2d5c90), color-stop(100%, #2d5c90));
+      background: -webkit-linear-gradient(top, #1b4472 0%, #2d5c90 53%, #2d5c90 100%);
+      background: -o-linear-gradient(top, #1b4472 0%, #2d5c90 53%, #2d5c90 100%);
+      background: -ms-linear-gradient(top, #1b4472 0%, #2d5c90 53%, #2d5c90 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1b4472', endColorstr='#2d5c90', GradientType=0);
+      background: linear-gradient(top, #1b4472 0%, #2d5c90 53%, #2d5c90 100%);
+    }
+.THIS    #sliver-container {
+      background: #224e7d;
+   	  color: #444444;
+      font-family: "Droid Sans", "PT Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 1.5;
+      word-wrap: break-word;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      border-top: 10px solid;
+    }
